@@ -68,7 +68,7 @@
           <div class="user-container d-flex">
             <a href="#" class="d-flex user position-relative" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img class="profile" alt="profile" src="img/profile/profile-1.webp" />
-              <div class="name">Nama Kasir</div>
+              <div class="name">Nama Admin</div>
             </a>
             <div class="dropdown-menu dropdown-menu-end user-menu wide">
               <div class="row mb-3 ms-0 me-0"></div>
@@ -83,25 +83,25 @@
           <div class="menu-container flex-grow-1">
             <ul id="menu" class="menu">
               <li>
-                <a href="dashboards.html" data-href="dashboards.html">
+                <a href="dashboardadmin.html" data-href="dashboards.html">
                   <i data-acorn-icon="home-garage" class="icon" data-acorn-size="18"></i>
                   <span class="label">Dashboards</span>
                 </a>
-                <a href="kasir.html">
+                <a href="mastertoko.html">
                   <i data-acorn-icon="calendar" class="icon" data-acorn-size="18"></i>
-                  <span class="label">Kasir</span>
+                  <span class="label">Toko</span>
                 </a>
               </li>
               <li>
                 <a href="listtransaksi.html">
                   <i data-acorn-icon="form-check" class="icon" data-acorn-size="18"></i>
-                  <span class="label">List Transaksi</span>
+                  <span class="label">Gudang</span>
                 </a>
               </li>
               <li>
                 <a href="listbarang.html">
                   <i data-acorn-icon="inbox" class="icon" data-acorn-size="18"></i>
-                  <span class="label">List Barang</span>
+                  <span class="label">Staff</span>
                 </a>
               </li>
               <li>
@@ -145,16 +145,31 @@
           <div class="page-title-container">
           </div>
           <!-- Title and Top Buttons End -->
-          <div class="row">
-            <div class="col-12">
+          <div class="row justify-content-center">
+            <div class="col-6">
+              <h2 class="small-title">Input Data</h2>
                     <div class="card mb-3">
-
                         <div class="card-body mb-3">
-                        
-                      
+                          <div class="col-md-12 mb-3">
+                            <label for="inputCity" class="form-label">Nama Toko</label>
+                            <input type="text" class="form-control" id="inputCity" />
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <label for="inputCity" class="form-label">Alamat Toko</label>
+                            <input type="text" class="form-control" id="inputCity" />
+                          </div>
+                          <div class="col-md-12 mb-5">
+                            <label for="inputCity" class="form-label">Nomer Tlp/HP</label>
+                            <input type="text" class="form-control" id="inputCity" />
+                          </div>
+                          <div class="col-12 mx-auto d-grid ">
+                            <button class="btn btn-primary" type="button">Tambah Toko</button>
+                          </div>
                         </div>
-
+                        </div>
                     </div>
+            </div>
+         </div>
       </main>
       <!-- Layout Footer Start -->
       <footer>
