@@ -192,59 +192,39 @@
       <main>
         <div class="container">
           <!-- Title and Top Buttons Start -->
-          <div class="page-title-container"></div>
+          <div class="page-title-container">
+          </div>
           <!-- Title and Top Buttons End -->
-          <div class="row">            
-                      <div class="col-md-2">
-                        <h2 class="small-title">Menu</h2>    
-                          <a href="tambahpacking.html">
-                            <div class="card mb-3 hover-border-primary">
-                              <div class="d-flex flex-column card-body align-items-center">
-                                <div class="sw-8 sh-8 rounded-xl d-flex justify-content-center align-items-center border border-primary">
-                                  <i data-acorn-icon="plus" class="text-primary"></i>
-                                </div>
-                                <div class="text-center sh-8 d-flex align-items-center">
-                                  Tambah Packing
-                                </div>
-                              </div>
-                            </div>
-                      </div>                
-                      <div class="col-md-12 mb-3">
-                        <h2 class="small-title">List Packing</h2> 
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="table-responsive-sm mb-5">
-                              <table class="table">
-                                <thead>
-                                  <tr class="ali">
-                                    <th scope="col">No</th>
-                                    <th scope="col">Kode Packing</th>
-                                    <th scope="col">Nama Packing</th>
-                                    <th scope="col">Stok</th>
-                                    <th scope="col">Harga Modal</th>
-                                    <th scope="col">Harga Jual</th>
-                                    <th scope="col">Button</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">1</th>
-                                    <td>Cell</td>
-                                    <td>Cell</td>
-                                    <td>Cell</td>
-                                    <td>Cell</td>
-                                    <td>Cell</td>
-                                    <td>Cell</td>
-                                    <td>Cell</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
+          <div class="row justify-content-center">
+            <div class="col-6">
+              <h2 class="small-title">Input Data</h2>
+                    <div class="card mb-3">
+                        <div class="card-body mb-3">
+                          <div class="col-md-12 mb-3">
+                            <label for="inputCity" class="form-label">Nama Member</label>
+                            <input type="text" class="form-control" id="inputCity" />
                           </div>
+                          <div class="col-md-12 mb-3">
+                            <label for="inputCity" class="form-label">Nomer Tlp/HP</label>
+                            <input type="text" class="form-control" id="inputCity" />
+                          </div>
+                          <div class="col-md-12 mb-5">
+                            <label for="inputState" class="form-label">Alamat Member</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <a href="mastermember.html">
+                            <div class="col-12 mx-auto d-grid ">
+                              <button class="btn btn-primary" type="button">Tambah Member</button>
+                            </div>
+                          </a>
                         </div>
-                      </div>
-            </div> 
-        </div>                     
+                        </div>
+                    </div>
+            </div>
+         </div>
       </main>
       <!-- Layout Footer Start -->
       <footer>

@@ -93,27 +93,77 @@
                 </a>
               </li>
               <li>
-                <a href="mastergudang.html">
+                <a href="#gudang" data-href="mastergudang.html">
                   <i data-acorn-icon="form-check" class="icon" data-acorn-size="18"></i>
                   <span class="label">Gudang</span>
                 </a>
-              </li>
+                <ul id="gudang">
+                  <li>
+                    <a href="masterkatagori.html">
+                      <span class="label">Katagori</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mastervarian.html">
+                      <span class="label">Varian</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="masterwarna.html">
+                      <span class="label">Warna</span>
+                    </a>
+                  </li>
+                    <li>
+                      <a href="masterukuran.html">
+                        <span class="label">Ukuran</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="masterproduct.html">
+                        <span class="label">Produk</span>
+                      </a>
+                    </li>
+                </ul>
+              </li>   
               <li>
-                <a href="listbarang.html">
+                <a href="masterstaff.html">
                   <i data-acorn-icon="inbox" class="icon" data-acorn-size="18"></i>
                   <span class="label">Staff</span>
                 </a>
               </li>
               <li>
-                <a href="member.html">
+                <a href="mastermember.html">
                   <i data-acorn-icon="file-text" class="icon" data-acorn-size="18"></i>
                   <span class="label">Member</span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i data-acorn-icon="" class="icon" data-acorn-size="18"></i>
-                  <span class="label"></span>
+                <a href="#laporan" data-href="masterlaporan.html">
+                  <i data-acorn-icon="form-check" class="icon" data-acorn-size="18"></i>
+                  <span class="label">Laporan</span>
+                </a>
+                <ul id="laporan">
+                  <li>
+                    <a href="masterlaporan.html">
+                      <span class="label">Laporan 1</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="label">Laporan 2</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="label">Laporan 3</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="setting.html">
+                  <i data-acorn-icon="book-open" class="icon" data-acorn-size="18"></i>
+                  <span class="label">Settings</span>
                 </a>
               </li>
               <li>
@@ -140,52 +190,59 @@
       </div>
 
       <main>
-          <h2 class="small-title">List Produk</h2>
-          <div class="card">
-            <div class="card-body">
-              <div class="table-responsive-sm mb-5">
-                <table class="table">
-                  <thead>
-                    <tr class="ali">
-                      <th scope="col">No</th>
-                      <th scope="col">SKU</th>
-                      <th scope="col">Foto</th>
-                      <th scope="col">Nama</th>
-                      <th scope="col">Katagori</th>
-                      <th scope="col">Varian</th>
-                      <th scope="col">Warna</th>
-                      <th scope="col">Ukuran</th>
-                      <th scope="col">Stok</th>
-                      <th scope="col">Harga<br>Modal</th>
-                      <th scope="col">Harga<br>Jual</th>
-                      <th scope="col">Barcode</th>
-                      <th scope="col">Button</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Cell</td>
-                      <td><img src="img/product/small/product-6.webp" class="img-fluid rounded mb-1 me-1 sw-6" alt="Responsive image" /></td>
-                      <td>skldjaklsjdklasjd</td>
-                      <td>Cell</td>
-                      <td>Cell</td>
-                      <td>Cell</td>
-                      <td>Cell</td>
-                      <td>Cell</td>
-                      <td>Cell</td>
-                      <td>Cell</td>
-                      <td>Cell</td>
-                      <td>Cell</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              
-              </div>
-            </div>
-          </div>
-        <!-- Breakpoint Specific Responsive End -->
+        <div class="container">
+          <!-- Title and Top Buttons Start -->
+          <div class="page-title-container"></div>
+          <!-- Title and Top Buttons End -->
+          <div class="row">            
+                      <div class="col-md-2">
+                        <h2 class="small-title">Menu</h2>    
+                          <a href="tambahmember.html">
+                            <div class="card mb-3 hover-border-primary">
+                              <div class="d-flex flex-column card-body align-items-center">
+                                <div class="sw-8 sh-8 rounded-xl d-flex justify-content-center align-items-center border border-primary">
+                                  <i data-acorn-icon="plus" class="text-primary"></i>
+                                </div>
+                                <div class="text-center sh-8 d-flex align-items-center">
+                                  Tambah Staff
+                                </div>
+                              </div>
+                            </div>
+                      </div>                
+                      <div class="col-md-12 mb-3">
+                        <h2 class="small-title">List Member</h2> 
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="table-responsive-sm mb-5">
+                              <table class="table">
+                                <thead>
+                                  <tr class="ali">
+                                    <th scope="col">No</th>
+                                    <th scope="col">Kode Member</th>
+                                    <th scope="col">Nama Member</th>
+                                    <th scope="col">Nomer HP/WA</th>
+                                    <th scope="col">Alamat Member</th>
+                                    <th scope="col">Button</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>Cell</td>
+                                    <td>Cell</td>
+                                    <td>Cell</td>
+                                    <td>Cell</td>
+                                    <td>Cell</td>
+                                    <td>Cell</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div> 
+        </div>                     
       </main>
       <!-- Layout Footer Start -->
       <footer>
